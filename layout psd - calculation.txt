@@ -1,0 +1,63 @@
+banner size : 1349*286
+header size before scroll : 992*416
+header size after scroll : 992*68
+6 rows in product wrapper
+1 row prouduct wrapper width size 992 
+product item wrapper size : 255* 426
+footer-background : 1349 * 565 
+footer-content : 992* 565
+copy right strip size : 1349 * 50
+
+spacing between header and banner, banner and product wrapper,within product wrapper (row to row) ,  product wrapper and footer : 1349*17 in each
+
+
+
+/*Height sizing for without srolling web */
+
+header : 416
+margin : 17
+banner : 286
+margin : 17
+wrapper for products {
+	Total 6 Rows
+		1 Row - item s height : 426 -- for 6 rows item height should be 6 times : 426*6 = 2556
+		margin within height between rows : 17  -- for 6 rows margin should be 3 times within rows : 17*3 = 51 
+		======================================================================
+		Total : 2556+51 =>   2607
+	}  
+margin : 17
+footer : 565
+margin : 17
+copy right strip : 50
+
+		======================================================================
+		Total : 416+17+286+17+2607+17+565+17+50  =>   3992
+			===================
+		                 || Psd Sizing : 1349 * 3992   ||
+			===================
+
+
+
+/*Height sizing for after srolling web */
+
+header : 68
+margin : 17
+banner : 286
+margin : 17
+wrapper for products {
+	Total 6 Rows
+		1 Row - item s height : 426 -- for 6 rows item height should be 6 times : 426*6 = 2556
+		margin within height between rows : 17  -- for 6 rows margin should be 3 times within rows : 17*3 = 51 
+		======================================================================
+		Total : 2556+51 =>   2607
+	}  
+margin : 17
+footer : 565
+margin : 17
+copy right strip : 50
+
+		======================================================================
+		Total : 68+17+286+17+2607+17+565+17+50  =>   3644
+			===================
+		                 || Psd Sizing : 1349 * 3644  ||
+			===================
